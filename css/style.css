@@ -1,0 +1,146 @@
+
+.header{
+	background-image: url(../img/header1.png);
+	height: 92px;
+}
+.header .header-img{
+	padding-top: 20px;
+}
+.header .main-menu{
+	padding-top: 29px;
+}
+.header .main-menu a{
+	margin-right: 7px;
+	color: black;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	font-size: 17px;
+	padding: 5px;
+}
+.header .main-menu a:hover{
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: #f6c47b;
+}
+.header .header-phone{
+	padding-top: 28px;
+}
+.header .basket{
+	padding-top: 25px;
+	padding-left: 51px;
+}
+.header .basket span{
+	display: block;
+	font-size: 11pt;
+}
+.header .basket:before{
+	content: url(../img/ShoppingCart.png);
+	display: block;
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    height: 35px;
+    width: 35px;
+}
+.main-content .slider{
+	margin-top: 30px;
+}
+.main-content .products{
+	margin-bottom: 40px;
+}
+.main-content .products .product{
+	padding-left: 40px;
+}
+.main-content .products .title{
+	margin-bottom: 30px;
+	font-size: 24pt;
+	font-weight: bold;
+	display: block;
+}
+.main-content .products .product .productTitle{
+	font-size: 16pt;
+	font-weight: bold;
+	display: block;
+    margin-bottom: 10px;
+}
+.main-content .products .product .ourProduct{
+	height: 280px;
+	width: 100%;
+	display: block;
+	background-size: cover;
+	border-radius: 10px;
+}
+.main-content .products .product .ourProduct:hover{
+	-webkit-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.22);
+	-moz-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.22);
+	box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.22);
+}
+.main-content .products .product .prd1{
+	background-image: url(../img/Donuts.png);
+}
+.main-content .products .product .prd2{
+	background-image: url(../img/06a024a75ea47b057a1266e98005aeb6.jpg);
+}
+.main-content .products .product .prd3{
+	background-image: url(../img/a4e178c1c43defac53cfb615ec9abe48.jpg);
+}
+.main-content .products .product .prd4{
+	background-image: url(../img/524-300.jpg);
+}
+.main-content .pre-footer{
+	background-image: url(../img/london-skyline-silhouette-01-01-01.png);
+	height: 662px;
+	padding-top: 60px;
+}
+.main-content .pre-footer .info-about-us .title{
+	font-size: 24pt;
+	font-weight: bold;
+}
+.main-content .pre-footer .info-about-us .information{
+	margin-top: 40px;
+}
+.main-content .pre-footer .info-about-us .information .info{
+	font-size: 15pt;
+}
+.main-content .pre-footer .info-about-us .information2{
+	margin-top: 60px;
+}
+.main-content .pre-footer .info-about-us .information2 .extra-links .title2{
+	display: block;
+	margin-bottom: 27px;
+	font-size: 18pt;
+}
+.main-content .pre-footer .info-about-us .information2 .extra-links a{
+	display: block;
+    padding-left: 20px;
+    padding-top: 2px;
+    font-size: 15pt;
+    color: black;
+}
+.main-content .pre-footer .info-about-us .information2 .extra-links a:before{
+	content: url(../img/CinnamonRoll_2.png);
+	display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 10px;
+}
+.main-content .pre-footer .info-about-us .information2 .our-factory .title2{
+	display: block;
+	margin-bottom: 27px;
+	font-size: 18pt;
+}
+.main-content .pre-footer .info-about-us .information2 .our-factory .picter-links a{
+	background-image: url(../img/importentLink.png);
+	display: inline-block;
+	width: 229px;
+	height: 141px;
+	margin-right: 10px;
+}
+.main-content .pre-footer .info-about-us .information2 .our-factory .picter-links a:last-child{
+	margin-right: 0px;
+}
+footer{
+	background-color: #e8be4d;
+}
